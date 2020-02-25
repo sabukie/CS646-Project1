@@ -167,6 +167,7 @@ printf("********************************************************\n");
 	//Unsigned char data type ranges from 0 to 255.
 	//ASCII ranges from 0 to 255
     unsigned char charString3[4];
+    unsigned char hard [4] = {'h', 'a', 'r', 'D'};
     //int lowRange = 0;
     //int hiRange = 255;
     //int count = 0;
@@ -229,7 +230,7 @@ printf("********************************************************\n");
 						//This is the charString generated in the Outer/Inner Loops
                         printf("charString: %c%c%c%c\n", charString3[0], charString3[1], charString3[2], charString3[3]);
 			//Comparing the charString generated to "harD". if it is the same, keep running, else exit
-			if (charString[0]==hard[0] && charString[1]==hard[1] && charString[2]==hard[2] && charString[3]==hard[3] ){
+			if (charString3[0]==hard[0] && charString3[1]==hard[1] && charString3[2]==hard[2] && charString3[3]==hard[3] ){
 				printf("***Continue***");
 				}
 			else {
